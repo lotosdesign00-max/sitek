@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rival Design — Premium graphic design studio specializing in avatars, branding, and visual identity">
+    <title>Rival Design — Premium Graphic Design Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <a href="home.html" class="logo">
+                <span class="logo-text">Rival</span>
+                <span class="logo-accent">Design</span>
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="home.html" class="nav-link active" data-ru="Главная" data-en="Home">Главная</a>
+                <a href="services.html" class="nav-link" data-ru="Услуги" data-en="Services">Услуги</a>
+                <a href="portfolio.html" class="nav-link" data-ru="Портфолио" data-en="Portfolio">Портфолио</a>
+                <a href="about.html" class="nav-link" data-ru="О нас" data-en="About">О нас</a>
+                <a href="process.html" class="nav-link" data-ru="Процесс" data-en="Process">Процесс</a>
+                <a href="faq.html" class="nav-link" data-ru="FAQ" data-en="FAQ">FAQ</a>
+                <a href="contact.html" class="nav-link nav-link-cta" data-ru="Контакт" data-en="Contact">Контакт</a>
+            </div>
+
+            <div class="nav-actions">
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="ru" aria-label="Switch to Russian">RU</button>
+                    <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+                </div>
+                <a href="https://t.me/rivaldesign" class="btn btn-primary btn-sm" data-ru="Telegram" data-en="Telegram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 2L3 10l7 4 4 7 7-19z"/>
+                    </svg>
+                    Telegram
+                </a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <canvas id="particleCanvas"></canvas>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge" data-ru="Специализация: Аватары" data-en="Specialization: Avatars">
+                    Специализация: Аватары
+                </div>
+                <h1 class="hero-title" data-ru="Визуальная идентичность премиум-уровня" data-en="Premium-Level Visual Identity">
+                    Визуальная идентичность премиум-уровня
+                </h1>
+                <p class="hero-subtitle" data-ru="Создаем графический дизайн, который выделяет ваш бренд, проект или личность. Аватары, логотипы, брендинг, анимация." data-en="We create graphic design that makes your brand, project, or personality stand out. Avatars, logos, branding, animation.">
+                    Создаем графический дизайн, который выделяет ваш бренд, проект или личность. Аватары, логотипы, брендинг, анимация.
+                </p>
+                <div class="hero-cta">
+                    <a href="contact.html" class="btn btn-primary btn-lg" data-ru="Обсудить проект" data-en="Discuss Project">
+                        Обсудить проект
+                    </a>
+                    <a href="portfolio.html" class="btn btn-secondary btn-lg" data-ru="Смотреть работы" data-en="View Work">
+                        Смотреть работы
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label" data-ru="Проектов" data-en="Projects">Проектов</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label" data-ru="Клиентов" data-en="Clients">Клиентов</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label" data-ru="Лет опыта" data-en="Years">Лет опыта</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Positioning Section -->
+    <section class="positioning">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ru="Дизайн — это инвестиция в восприятие" data-en="Design Is an Investment in Perception">
+                    Дизайн — это инвестиция в восприятие
+                </h2>
+                <p class="section-subtitle" data-ru="Сильный визуал создает первое впечатление, формирует статус и запоминается. Rival Design создает графику, которая работает на ваш образ." data-en="Strong visuals create first impressions, establish status, and are memorable. Rival Design creates graphics that work for your image.">
+                    Сильный визуал создает первое впечатление, формирует статус и запоминается. Rival Design создает графику, которая работает на ваш образ.
+                </p>
+            </div>
+            <div class="value-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 data-ru="Премиальное исполнение" data-en="Premium Execution">Премиальное исполнение</h3>
+                    <p data-ru="Каждая деталь продумана. Каждый элемент на своем месте. Результат выглядит дорого." data-en="Every detail is thought through. Every element in its place. The result looks expensive.">
+                        Каждая деталь продумана. Каждый элемент на своем месте. Результат выглядит дорого.
+                    </p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="10" r="3"/>
+                            <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"/>
+                        </svg>
+                    </div>
+                    <h3 data-ru="Специализация на аватарах" data-en="Avatar Specialization">Специализация на аватарах</h3>
+                    <p data-ru="Аватары — наша главная сила. Создаем визуальную идентичность для соцсетей, Discord, форумов." data-en="Avatars are our main strength. We create visual identity for social media, Discord, forums.">
+                        Аватары — наша главная сила. Создаем визуальную идентичность для соцсетей, Discord, форумов.
+                    </p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                        </svg>
+                    </div>
+                    <h3 data-ru="Статичная и анимированная графика" data-en="Static & Animated Graphics">Статичная и анимированная графика</h3>
+                    <p data-ru="Работаем с любыми форматами: от статичных логотипов до анимированных баннеров и эмодзи." data-en="We work with any format: from static logos to animated banners and emoji.">
+                        Работаем с любыми форматами: от статичных логотипов до анимированных баннеров и эмодзи.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Services -->
+    <section class="featured-services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ru="Флагманские услуги" data-en="Flagship Services">Флагманские услуги</h2>
+                <a href="services.html" class="link-arrow" data-ru="Все услуги" data-en="All Services">
+                    Все услуги
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="services-showcase">
+                <div class="service-showcase-card">
+                    <div class="service-showcase-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="10" r="3"/>
+                            <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"/>
+                        </svg>
+                    </div>
+                    <h3 data-ru="Аватары" data-en="Avatars">Аватары</h3>
+                    <p data-ru="Премиальная визуальная идентичность для соцсетей, Discord, форумов. Статичные и анимированные." data-en="Premium visual identity for social media, Discord, forums. Static and animated.">
+                        Премиальная визуальная идентичность для соцсетей, Discord, форумов. Статичные и анимированные.
+                    </p>
+                    <a href="services.html#avatars" class="btn btn-outline" data-ru="Подробнее" data-en="Learn More">Подробнее</a>
+                </div>
+                <div class="service-showcase-card">
+                    <div class="service-showcase-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <h3 data-ru="Брендинг" data-en="Branding">Брендинг</h3>
+                    <p data-ru="Логотипы, фирменный стиль, полные пакеты. Создаем визуальную систему для вашего бренда." data-en="Logos, corporate identity, full packages. We create a visual system for your brand.">
+                        Логотипы, фирменный стиль, полные пакеты. Создаем визуальную систему для вашего бренда.
+                    </p>
+                    <a href="services.html#branding" class="btn btn-outline" data-ru="Подробнее" data-en="Learn More">Подробнее</a>
+                </div>
+                <div class="service-showcase-card">
+                    <div class="service-showcase-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 data-ru="Анимация" data-en="Animation">Анимация</h3>
+                    <p data-ru="Анимированные логотипы, баннеры, эмодзи. Живая графика, которая привлекает внимание." data-en="Animated logos, banners, emoji. Live graphics that attract attention.">
+                        Анимированные логотипы, баннеры, эмодзи. Живая графика, которая привлекает внимание.
+                    </p>
+                    <a href="services.html#animation" class="btn btn-outline" data-ru="Подробнее" data-en="Learn More">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Cases -->
+    <section class="featured-cases">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ru="Избранные проекты" data-en="Featured Projects">Избранные проекты</h2>
+                <a href="portfolio.html" class="link-arrow" data-ru="Все проекты" data-en="All Projects">
+                    Все проекты
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="cases-grid">
+                <div class="case-card-featured">
+                    <div class="case-image"></div>
+                    <div class="case-content">
+                        <div class="case-category" data-ru="Полный пакет" data-en="Full Package">Полный пакет</div>
+                        <h3 data-ru="Cosmic Streamer" data-en="Cosmic Streamer">Cosmic Streamer</h3>
+                        <p data-ru="Футуристичная визуальная идентичность для стримера: аватар, баннер, оформление канала" data-en="Futuristic visual identity for streamer: avatar, banner, channel design">
+                            Футуристичная визуальная идентичность для стримера: аватар, баннер, оформление канала
+                        </p>
+                        <div class="case-result" data-ru="Узнаваемость +40%" data-en="Recognition +40%">Узнаваемость +40%</div>
+                    </div>
+                </div>
+                <div class="case-card-featured">
+                    <div class="case-image"></div>
+                    <div class="case-content">
+                        <div class="case-category" data-ru="Анимированный логотип" data-en="Animated Logo">Анимированный логотип</div>
+                        <h3 data-ru="Tech Brand" data-en="Tech Brand">Tech Brand</h3>
+                        <p data-ru="Динамичный логотип для технологического стартапа с плавной анимацией" data-en="Dynamic logo for tech startup with smooth animation">
+                            Динамичный логотип для технологического стартапа с плавной анимацией
+                        </p>
+                        <div class="case-result" data-ru="Используется во всех точках контакта" data-en="Used across all touchpoints">Используется во всех точках контакта</div>
+                    </div>
+                </div>
+                <div class="case-card-featured">
+                    <div class="case-image"></div>
+                    <div class="case-content">
+                        <div class="case-category" data-ru="Discord комьюнити" data-en="Discord Community">Discord комьюнити</div>
+                        <h3 data-ru="Gaming Community" data-en="Gaming Community">Gaming Community</h3>
+                        <p data-ru="Визуальная система для игрового сообщества: аватары, эмодзи, оформление" data-en="Visual system for gaming community: avatars, emoji, design">
+                            Визуальная система для игрового сообщества: аватары, эмодзи, оформление
+                        </p>
+                        <div class="case-result" data-ru="Вовлеченность участников увеличилась" data-en="Member engagement increased">Вовлеченность участников увеличилась</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-content">
+                <h2 class="section-title" data-ru="Почему выбирают Rival Design" data-en="Why Choose Rival Design">
+                    Почему выбирают Rival Design
+                </h2>
+                <div class="trust-grid">
+                    <div class="trust-item">
+                        <div class="trust-number">01</div>
+                        <h3 data-ru="Сильный визуальный вкус" data-en="Strong Visual Taste">Сильный визуальный вкус</h3>
+                        <p data-ru="Создаем графику, которая выглядит дорого и профессионально" data-en="We create graphics that look expensive and professional">
+                            Создаем графику, которая выглядит дорого и профессионально
+                        </p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-number">02</div>
+                        <h3 data-ru="Специализация на аватарах" data-en="Avatar Specialization">Специализация на аватарах</h3>
+                        <p data-ru="Это наша главная сила — создаем визуальную идентичность премиум-уровня" data-en="This is our main strength — we create premium-level visual identity">
+                            Это наша главная сила — создаем визуальную идентичность премиум-уровня
+                        </p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-number">03</div>
+                        <h3 data-ru="Универсальность" data-en="Versatility">Универсальность</h3>
+                        <p data-ru="От аватаров до полного брендинга — работаем с любыми форматами" data-en="From avatars to full branding — we work with any format">
+                            От аватаров до полного брендинга — работаем с любыми форматами
+                        </p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-number">04</div>
+                        <h3 data-ru="Кастомный подход" data-en="Custom Approach">Кастомный подход</h3>
+                        <p data-ru="Никаких шаблонов. Каждый проект создается с нуля под вас" data-en="No templates. Every project is created from scratch for you">
+                            Никаких шаблонов. Каждый проект создается с нуля под вас
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Preview -->
+    <section class="testimonials-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ru="Что говорят клиенты" data-en="What Clients Say">Что говорят клиенты</h2>
+                <a href="testimonials.html" class="link-arrow" data-ru="Все отзывы" data-en="All Testimonials">
+                    Все отзывы
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card-large">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text" data-ru="Аватар получился огонь. Сразу видно профессиональный уровень. Теперь все спрашивают, кто делал. Рекомендую всем, кто хочет выделиться." data-en="The avatar turned out fire. Professional level is immediately visible. Now everyone asks who made it. I recommend to everyone who wants to stand out.">
+                        Аватар получился огонь. Сразу видно профессиональный уровень. Теперь все спрашивают, кто делал. Рекомендую всем, кто хочет выделиться.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">Алексей</div>
+                            <div class="author-role" data-ru="Стример" data-en="Streamer">Стример</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card-large">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text" data-ru="Работали быстро, четко, без лишних вопросов. Результат превзошел ожидания. Визуал стал намного сильнее." data-en="Worked fast, clearly, without unnecessary questions. Result exceeded expectations. Visual became much stronger.">
+                        Работали быстро, четко, без лишних вопросов. Результат превзошел ожидания. Визуал стал намного сильнее.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">Мария</div>
+                            <div class="author-role" data-ru="Владелец бренда" data-en="Brand Owner">Владелец бренда</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-ru="Готовы усилить визуал?" data-en="Ready to Strengthen Your Visual?">
+                    Готовы усилить визуал?
+                </h2>
+                <p data-ru="Напишите в Telegram — обсудим ваш проект и создадим дизайн, который работает на ваш образ" data-en="Message on Telegram — we'll discuss your project and create design that works for your image">
+                    Напишите в Telegram — обсудим ваш проект и создадим дизайн, который работает на ваш образ
+                </p>
+                <div class="cta-buttons">
+                    <a href="https://t.me/rivaldesign" class="btn btn-primary btn-lg" data-ru="Связаться в Telegram" data-en="Contact on Telegram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 2L3 10l7 4 4 7 7-19z"/>
+                        </svg>
+                        Связаться в Telegram
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary btn-lg" data-ru="Форма связи" data-en="Contact Form">
+                        Форма связи
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-text">Rival</span>
+                        <span class="logo-accent">Design</span>
+                    </div>
+                    <p class="footer-tagline" data-ru="Премиальный графический дизайн" data-en="Premium Graphic Design">
+                        Премиальный графический дизайн
+                    </p>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-nav-group">
+                        <h4 data-ru="Навигация" data-en="Navigation">Навигация</h4>
+                        <a href="home.html" data-ru="Главная" data-en="Home">Главная</a>
+                        <a href="services.html" data-ru="Услуги" data-en="Services">Услуги</a>
+                        <a href="portfolio.html" data-ru="Портфолио" data-en="Portfolio">Портфолио</a>
+                        <a href="about.html" data-ru="О нас" data-en="About">О нас</a>
+                    </div>
+                    <div class="footer-nav-group">
+                        <h4 data-ru="Информация" data-en="Information">Информация</h4>
+                        <a href="process.html" data-ru="Процесс" data-en="Process">Процесс</a>
+                        <a href="testimonials.html" data-ru="Отзывы" data-en="Testimonials">Отзывы</a>
+                        <a href="faq.html" data-ru="FAQ" data-en="FAQ">FAQ</a>
+                        <a href="contact.html" data-ru="Контакт" data-en="Contact">Контакт</a>
+                    </div>
+                    <div class="footer-nav-group">
+                        <h4 data-ru="Связь" data-en="Contact">Связь</h4>
+                        <a href="https://t.me/rivaldesign" target="_blank" rel="noopener">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Rival Design. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
